@@ -13,7 +13,8 @@ Install
 ---------------
 
 To install, include the mightymouse.js file in your website.
-mightymouse-js depends on jquery.
+
+mightymouse-js depends on JQuery.
 
 
 Usage
