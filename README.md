@@ -46,12 +46,12 @@ mightymouse.AddHandler("body", "lbtn clk", function(e) {
 mightymouse.AddHandler("body", "lbtn clk ctrl", function(e) {
     console.log("mighty mouse to the rescue!")
 });
-mightymouse.AddHandler("body", "lbtn clk ctrl shift", function(e) {
+mightymouse.AddHandler(".cat", "lbtn clk ctrl shift", function(e) {
     console.log("UP UP AND AWAY!");
 });
 
 // stop the context menu
-mightymouse.AddHandler("body", "rbtn prevent", function(e) {
+mightymouse.AddHandler("#mydiv", "rbtn prevent", function(e) {
     console.log("right mouse prevented!");
 });
 ```
