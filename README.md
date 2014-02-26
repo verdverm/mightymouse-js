@@ -1,6 +1,8 @@
 mightymouse-js
 ==============
 
+![Here I come to save the daaaaay!](https://raw.github.com/verdverm/mightymouse-js/master/MightyMouseandGirl.gif)
+
 mightymouse-js makes working with mouse traps a snap! just watch your tail.
 
 ```JavaScript
