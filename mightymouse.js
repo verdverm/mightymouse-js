@@ -187,7 +187,6 @@ var mightymouse = (function($) {
                 }
             }
 
-            console.log(bitvec);
             handleX = function(e) {
                 var m = e.originalEvent;
                 var pass = true;
@@ -207,7 +206,6 @@ var mightymouse = (function($) {
         }
 
         if (params.prevent == true) {
-            console.log("prevent registered");
             handleP = function(e) {
                 e.preventDefault();
                 return handleX(e);
@@ -219,8 +217,6 @@ var mightymouse = (function($) {
         var handleT = handleP
         var canCall = true;
         var limit = lmt;
-
-        console.log(lmt);
 
         if (lmt != undefined) {
             handleT = function(e) {
